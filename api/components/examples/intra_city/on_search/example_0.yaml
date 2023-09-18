@@ -107,7 +107,7 @@ value:
                       name: Yamuna Bazar
                       code: YAMUNA BAZAR
                     gps: '28.625972,77.209917' 
-                - type: END
+                - type: INTERMEDIATE_STOP
                   instructions:
                     name: Stop 3
                   location:
@@ -115,20 +115,20 @@ value:
                       name: dhaula kuan
                       code: DHAULA_KUAN
                     gps: '28.610972,77.201717'      
-                # - type: INTERMEDIATE_STOP
-                #   instructions:
-                #     name: Stop 4
-                #   location:
-                #     descriptor:
-                #       name: gpo
-                #       code: GPO 
-                #     gps: '28.623097,77.209917'      
-                # - type: END
-                #   location:
-                #     descriptor:
-                #       name: Greater Kailash
-                #       code: GREATER_KAILASH
-                #     gps: '28.548230, 77.238039'
+                - type: INTERMEDIATE_STOP
+                  instructions:
+                    name: Stop 4
+                  location:
+                    descriptor:
+                      name: gpo
+                      code: GPO 
+                    gps: '28.623097,77.209917'      
+                - type: END
+                  location:
+                    descriptor:
+                      name: Greater Kailash
+                      code: GREATER_KAILASH
+                    gps: '28.548230, 77.238039'
               vehicle:
                 category: BUS
               tags:
@@ -165,24 +165,3 @@ value:
                     gps: '28.548230, 77.238039'
               vehicle:
                 category: BUS
-            - id: 'F3'
-              stops:
-                - type: START
-                  location:
-                    descriptor:
-                      name: gpo
-                      code: GPO
-                    gps: '28.623097,77.209917'   
-                - type: END
-                  location:
-                    descriptor:
-                      name: Greater Kailash
-                      code: GREATER_KAILASH
-                    gps: '28.548230, 77.238039'
-              vehicle:
-                category: BUS
-          # tags:
-          #   - list:
-          #     - descriptor:
-          #         name: Timetable
-          #       value: 'https://dtc.delhi.gov.in/timetable.html'

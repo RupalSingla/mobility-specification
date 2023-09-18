@@ -72,10 +72,9 @@ value:
                   name: Yamuna Bazar
                   code: YAMUNA BAZAR
                 gps: '28.625972,77.209917' 
-            - type: TRANSIT_STOP
+            - type: INTERMEDIATE_STOP
               instructions:
                 name: Stop 3
-                short_desc: Please Change here for next stop
               location:
                 descriptor:
                   name: dhaula kuan
